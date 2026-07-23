@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+  <title id="title">Codeshark Telegram workflow</title>
+  <desc id="desc">A sanitized English Telegram task request flows through Codeshark to local project execution, verification, and a concise result.</desc>
+  <rect width="1400" height="560" fill="#f6f8fb"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#17202a">
+    <text x="58" y="72" font-size="18" font-weight="700" fill="#4e93cc" letter-spacing="2">TELEGRAM / OWNER</text>
+    <rect x="58" y="96" width="402" height="274" rx="18" fill="#ffffff" stroke="#d8e0e8" stroke-width="2"/>
+    <rect x="82" y="126" width="330" height="162" rx="14" fill="#e4f3ff"/>
+    <text x="104" y="161" font-size="18" font-weight="700">Investigate the failing validation</text><text x="104" y="187" font-size="18" font-weight="700">tests in SpectraGrid.</text><text x="104" y="225" font-size="17">Apply the smallest safe fix, run the</text><text x="104" y="249" font-size="17">suite, and return the evidence.</text>
+    <text x="82" y="334" font-size="15" fill="#667085">Outcome-oriented request in plain English</text>
+    <path d="M500 232 H618" stroke="#4e93cc" stroke-width="4" fill="none"/><path d="M608 218 L632 232 L608 246" fill="none" stroke="#4e93cc" stroke-width="4"/>
+    <text x="649" y="72" font-size="18" font-weight="700" fill="#111827" letter-spacing="2">CODESHARK / LOCAL ROUTING</text>
+    <rect x="648" y="96" width="326" height="274" rx="18" fill="#17202a"/>
+    <text x="678" y="140" font-size="26" font-weight="700" fill="#ffffff">Codeshark</text><text x="678" y="171" font-size="15" fill="#aebdca">Durable local operating layer</text>
+    <g font-size="17" fill="#ffffff"><circle cx="688" cy="218" r="8" fill="#57c19a"/><text x="708" y="224">Route to SpectraGrid project</text><circle cx="688" cy="263" r="8" fill="#57c19a"/><text x="708" y="269">Preserve task context</text><circle cx="688" cy="308" r="8" fill="#57c19a"/><text x="708" y="314">Run tests and inspect the diff</text></g>
+    <path d="M1014 232 H1132" stroke="#4e93cc" stroke-width="4" fill="none"/><path d="M1122 218 L1146 232 L1122 246" fill="none" stroke="#4e93cc" stroke-width="4"/>
+    <text x="1162" y="72" font-size="18" font-weight="700" fill="#237c5a" letter-spacing="2">VERIFIED RESULT</text>
+    <rect x="1160" y="96" width="184" height="274" rx="18" fill="#ffffff" stroke="#d8e0e8" stroke-width="2"/>
+    <text x="1188" y="146" font-size="22" font-weight="700">Complete</text><text x="1188" y="188" font-size="16" fill="#3f4c5a">✓ Minimal fix</text><text x="1188" y="220" font-size="16" fill="#3f4c5a">✓ Tests passed</text><text x="1188" y="252" font-size="16" fill="#3f4c5a">✓ Diff reviewed</text><text x="1188" y="284" font-size="16" fill="#3f4c5a">✓ No deployment</text><text x="1188" y="330" font-size="14" fill="#667085">Concise evidence</text>
+    <text x="58" y="470" font-size="22" font-weight="700">Sensitive project access and execution remain on the owner’s Mac.</text>
+    <text x="58" y="505" font-size="17" fill="#667085">Telegram is the request surface; Codeshark supplies project routing, persistent context, guarded execution, and result delivery.</text>
+  </g>
+</svg>
