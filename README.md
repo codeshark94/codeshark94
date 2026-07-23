@@ -44,7 +44,7 @@ The point is not a single equity curve. Every candidate carries a fixed research
 MARF (Micro-Adaptive Router Factory) receives strategy evidence from the research layer and makes the hand-off operationally explicit. The console is deliberately dense: it exposes status rather than hiding uncertainty.
 
 <p align="center">
-  <img src="assets/marf-console-map.svg" alt="Simplified MARF Operator Console showing its navigation, paper versus live gate, protocol status, and read-only MARF Bot" width="100%">
+  <img src="assets/marf-safety-console.jpeg" alt="MARF Operator Console Safety view captured locally on macOS" width="100%">
 </p>
 
 | Console surface | What it makes explicit |
@@ -55,7 +55,7 @@ MARF (Micro-Adaptive Router Factory) receives strategy evidence from the researc
 | Safety | live-readiness prerequisites and the write gate |
 | MARF Bot | safe, broker-write-free questions about runtime state, risk, and selected symbols |
 
-<p align="center"><sub>Public diagram intentionally uses representative non-account data. Live trading remains gated by explicit safety, reconciliation, and operator-intent checks.</sub></p>
+<p align="center"><sub>Captured locally on macOS. This Safety view exposes the Paper/Live boundary and evidence gates without showing account balances, holdings, credentials, or broker-write controls.</sub></p>
 
 ## Agent Workflow
 
@@ -64,10 +64,10 @@ MARF (Micro-Adaptive Router Factory) receives strategy evidence from the researc
 Codeshark is the durable local operating layer around Codex: project routing, persistent context, task execution, verification, and result delivery. A request can start in Telegram in plain English while the project and sensitive work stay local.
 
 <p align="center">
-  <img src="assets/codeshark-telegram-flow.svg" alt="An illustrative Telegram request routed by Codeshark to a local project task, tests, and a verified result" width="100%">
+  <img src="assets/codeshark-telegram-local.jpeg" alt="A real local Telegram conversation with the Codeshark bot captured on macOS" width="360">
 </p>
 
-The example is illustrative and deliberately sanitized. The useful unit is a finished task with an explicit project, a minimal change, verification evidence, and a clear result.
+The image is a real local macOS Telegram capture, not a generated mockup. A task can be issued in English, for example: “Review the failing validation tests in SpectraGrid, apply the smallest safe fix, run the suite, and return the evidence.” The useful unit is a finished task with an explicit project, a minimal change, verification evidence, and a clear result.
 
 ## Scientific Computing
 
