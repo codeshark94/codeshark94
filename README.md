@@ -64,10 +64,19 @@ MARF (Micro-Adaptive Router Factory) receives strategy evidence from the researc
 Codeshark is the durable local operating layer around Codex: project routing, persistent context, task execution, verification, and result delivery. A request can start in Telegram in plain English while the project and sensitive work stay local.
 
 <p align="center">
-  <img src="assets/codeshark-menu-status-crop.png" alt="Codeshark Tasks status window and menu bar icon captured locally on macOS" width="720">
+  <img src="assets/codeshark-desktop.png" alt="Codeshark menu bar icon on the local Mac desktop" width="100%">
 </p>
 
-Captured locally on macOS: the menu bar icon opens **Codeshark Tasks**, which exposes active and queued work plus the execution path. A task can be issued in English, for example: “Review the failing validation tests in SpectraGrid, apply the smallest safe fix, run the suite, and return the evidence.” The useful unit is a finished task with an explicit project, a minimal change, verification evidence, and a clear result.
+<p align="center">
+  <img src="assets/codeshark-menu.png" alt="Codeshark working menu with task, delivery, project, attention, settings, usage, and log controls" width="43%">
+  <img src="assets/codeshark-model-usage.png" alt="Codeshark Model Usage window showing account quota and model usage" width="48%">
+</p>
+
+<p align="center">
+  <img src="assets/codeshark-role-models.png" alt="Codeshark Role Models window for configuring routing, execution, review, and finalization models" width="72%">
+</p>
+
+Captured locally on macOS: the menu bar is the local control surface. It exposes active and queued tasks, delivery, projects, attention, settings, usage, and logs; the role view makes routing, triage, planning, execution, independent review, adversarial review, and finalization explicit. A task can be issued in English through Telegram, for example: “Review the failing validation tests in SpectraGrid, apply the smallest safe fix, run the suite, and return the evidence.” The useful unit is a finished task with an explicit project, a minimal change, verification evidence, and a clear result.
 
 ## Scientific Computing
 
