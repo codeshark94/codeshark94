@@ -64,10 +64,10 @@ MARF (Micro-Adaptive Router Factory) receives strategy evidence from the researc
 Codeshark is the durable local operating layer around Codex: project routing, persistent context, task execution, verification, and result delivery. A request can start in Telegram in plain English while the project and sensitive work stay local.
 
 <p align="center">
-  <img src="assets/codeshark-telegram-local.jpeg" alt="A real local Telegram conversation with the Codeshark bot captured on macOS" width="360">
+  <img src="assets/codeshark-menu-status-crop.png" alt="Codeshark Tasks status window and menu bar icon captured locally on macOS" width="720">
 </p>
 
-The image is a real local macOS Telegram capture, not a generated mockup. A task can be issued in English, for example: “Review the failing validation tests in SpectraGrid, apply the smallest safe fix, run the suite, and return the evidence.” The useful unit is a finished task with an explicit project, a minimal change, verification evidence, and a clear result.
+Captured locally on macOS: the menu bar icon opens **Codeshark Tasks**, which exposes active and queued work plus the execution path. A task can be issued in English, for example: “Review the failing validation tests in SpectraGrid, apply the smallest safe fix, run the suite, and return the evidence.” The useful unit is a finished task with an explicit project, a minimal change, verification evidence, and a clear result.
 
 ## Scientific Computing
 
@@ -76,13 +76,11 @@ The image is a real local macOS Telegram capture, not a generated mockup. A task
 FETM-NanoWall reconstructs metric graphene-nanowall geometry from SEM imagery, voxelizes the domain, and computes geometry-driven transport and wall-flux fields for scientific inspection.
 
 <p align="center">
-  <a href="https://github.com/codeshark94/FETM-NanoWall">
-    <img src="https://raw.githubusercontent.com/codeshark94/FETM-NanoWall/main/docs/assets/fetm_plotly_surface.png" alt="FETM NanoWall reconstructed three-dimensional surface" width="48%">
-  </a>
-  <a href="https://github.com/codeshark94/FETM-NanoWall">
-    <img src="https://raw.githubusercontent.com/codeshark94/FETM-NanoWall/main/docs/assets/paraview_accessibility_volume.png" alt="FETM NanoWall accessibility volume field" width="48%">
-  </a>
+  <img src="assets/fetm-reconstructed-volume.png" alt="Reconstructed graphene nanowall volume from the GNW transport manuscript" width="48%">
+  <img src="assets/fetm-physical-height-field.png" alt="Physical height field from the GNW transport manuscript" width="48%">
 </p>
+
+<p align="center"><sub>Images extracted from the locally supplied GNW transport manuscript: reconstructed nanowall volume and physical height field.</sub></p>
 
 ---
 
