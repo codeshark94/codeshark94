@@ -1,98 +1,108 @@
 <p align="center">
-  <a href="#quant-lab">QUANT LAB</a> ·
-  <a href="#operator-console">OPERATOR CONSOLE</a> ·
-  <a href="#agent-workflow">AGENT WORKFLOW</a> ·
-  <a href="#scientific-computing">SCIENTIFIC COMPUTING</a>
+  <a href="#the-shortlist">THE SHORTLIST</a> ·
+  <a href="#capital-engine">CAPITAL ENGINE</a> ·
+  <a href="#execution-moat">EXECUTION MOAT</a> ·
+  <a href="#deep-tech-ip">DEEP-TECH IP</a> ·
+  <a href="#leverage-layer">LEVERAGE LAYER</a>
 </p>
 
 <h1 align="center">codeshark94</h1>
 
 <p align="center">
-  <strong>Building trustworthy autonomous systems.</strong><br>
-  Local-first systems for quant research, guarded operations, scientific computing, and durable AI task execution.
+  <strong>Build the edge. Prove the boundary. Compound the workflow.</strong><br>
+  Local-first systems where technical distinctiveness has a path to economic value.
 </p>
 
 <p align="center">
-  <code>Local-first</code> · <code>Evidence before automation</code> · <code>Reproducible research</code> · <code>Guarded execution</code>
+  <code>capital systems</code> · <code>scientific IP</code> · <code>local execution</code> · <code>evidence before automation</code>
 </p>
 
-## Quant Lab
+## The shortlist
 
-### [SpectraGrid](https://github.com/codeshark94/SpectraGrid) — from open-ended ideas to audited alpha portfolios
+This profile is intentionally selective: three projects with a clear technical moat and a concrete economic mechanism, plus the local execution layer that makes the work compound. The evidence is real; the upside is framed as a thesis, not as realized revenue or live-trading performance.
 
-SpectraGrid turns hypotheses into deterministic backtests, preserves the evidence in an archive, and assembles complementary candidates into deployable Alpha portfolios. Its interface keeps the research path visible: **Operations → Alpha → Archive → Source**.
+<table>
+  <tr>
+    <td width="50%"><strong>01 / CAPITAL</strong><br>find and package an edge</td>
+    <td width="50%"><strong>02 / CONTROL</strong><br>make deployment expensive to get wrong</td>
+  </tr>
+  <tr>
+    <td width="50%"><strong>03 / IP</strong><br>turn raw measurement into a moat</td>
+    <td width="50%"><strong>04 / LEVERAGE</strong><br>repeat the whole loop locally</td>
+  </tr>
+</table>
+
+## Capital engine
+
+### 01 / Explore — [SpectraGrid](https://github.com/codeshark94/SpectraGrid)
+
+SpectraGrid turns open-ended market questions into inspectable research artifacts: deterministic strategy generation, point-in-time backtests, archive context, correlation-aware portfolio selection, and exportable implementation contracts. The local dashboard keeps the path visible as **Operations → Alpha → Archive → Source**.
 
 <p align="center">
-  <img src="assets/return-tilt-vs-benchmarks.png" alt="SpectraGrid Return Tilt allocation compared with SPY and QQQ from 2021 through 2026" width="100%">
+  <img src="assets/spectragrid-alpha.png" alt="SpectraGrid Alpha dashboard showing portfolio selection, strategy counts, and an equity curve" width="100%">
 </p>
 
-<p align="center"><sub>Return Tilt is a maintainer research-archive snapshot as of 2026-07-22. Historical backtest results only; not investment advice or live results.</sub></p>
+<p align="center"><sub>Fresh local Alpha Lab capture · 2026-09-03 · 4/4 deployable combinations · 15,581 current strategies · alpha-v29 policy.</sub></p>
 
-| Deployable combo | Members | Sharpe | CAGR | Max correlation |
-| --- | ---: | ---: | ---: | ---: |
-| Best Overall | 18 / 18 | 1.3689 | 24.06% | 0.699 |
-| Return Tilt | 16 / 16 | 1.2649 | 27.81% | 0.803 |
-| Stable Core | 18 / 18 | 1.3823 | 22.08% | 0.744 |
-| Low-Corr Blend | 19 / 20 | 1.4289 | 19.63% | 0.622 |
+**Economic mechanism:** convert research time into reusable, cost-aware portfolio candidates instead of one-off charts. The displayed state is an archived backtest snapshot; a separate forward paper run is monitored as its own evidence stream.
 
-The point is not a single equity curve. Every candidate carries a fixed research contract, archive context, allocation rationale, and deployment boundary.
+## Execution moat
 
-## Operator Console
+### 02 / Guard — [MARF](https://github.com/codeshark94/MARF)
 
-### MARF — evidence-gated research operations
-
-MARF (Micro-Adaptive Router Factory) receives strategy evidence from the research layer and makes the hand-off operationally explicit. The console is deliberately dense: it exposes status rather than hiding uncertainty.
+MARF is the operator-facing handoff between research evidence and execution. Account state, pre-trade risk, execution authority, market-session evidence, and orderbook capture remain separate gates. Paper is the default research surface; live writes stay blocked until the protocol explicitly allows them.
 
 <p align="center">
-  <img src="assets/marf-safety-console.jpeg" alt="MARF Operator Console Safety view captured locally on macOS" width="100%">
+  <img src="assets/marf-safety.png" alt="MARF Safety workspace showing Paper risk and readiness gates" width="100%">
 </p>
 
-| Console surface | What it makes explicit |
+<p align="center"><sub>Safety: risk, readiness, and authority stay visible in Paper scope.</sub></p>
+
+<p align="center">
+  <img src="assets/marf-routers.png" alt="MARF Router workspace showing model, mode, order record, and orderbook replay evidence" width="100%">
+</p>
+
+<p align="center"><sub>Router replay: 5 models · 3 fixed modes · 1,595,643 orderbook snapshots; partial coverage remains explicit.</sub></p>
+
+<p align="center"><sub>Fresh local console captures · 2026-09-03 · broker-write-free research workflow.</sub></p>
+
+**Economic mechanism:** reduce the cost of operational mistakes while making execution quality measurable. MARF is not a fire-and-forget bot; its value is a control plane that makes uncertainty visible before capital can cross a write boundary.
+
+## Deep-tech IP
+
+### 03 / Measure — [FETM-NanoWall](https://github.com/codeshark94/FETM-NanoWall)
+
+FETM-NanoWall turns SEM imagery into a calibrated metric nano-domain, voxelizes the reconstructed geometry, and computes first-event transport and wall-contact fields for scientific inspection.
+
+<p align="center">
+  <img src="assets/fetm-first-event.png" alt="FETM first-event molecular transport figure showing accessibility fields and probability budget" width="100%">
+</p>
+
+<p align="center"><sub>Current transport output: spatial accessibility, first-event probability, and contact closure.</sub></p>
+
+<p align="center">
+  <img src="assets/fetm-kcr.png" alt="FETM collision-rate and kinetic-contact-rate comparison across mean free paths" width="100%">
+</p>
+
+<p align="center"><sub>Current KWFS sweep: particle collision rate versus kinetic contact rate across λ.</sub></p>
+
+**Economic mechanism:** a defensible measurement and simulation asset for materials and process decisions where a micrograph alone is not enough. The chain stays inspectable from calibration → geometry → voxel transport → post-processing; current evidence supports a research pipeline, not a commercial-performance claim.
+
+## Leverage layer
+
+### 04 / Compound — [Codeshark](https://github.com/codeshark94/codeshark)
+
+Codeshark is the local operating layer around Codex: project routing, persistent context, task execution, verification, and result delivery. It keeps sensitive work on the Mac while turning a finished task into a repeatable unit with a concrete project, a minimal change, fresh evidence, and a clear handoff.
+
+**Economic mechanism:** operator leverage. The same local control plane can carry research, engineering, validation, and delivery across the three systems above without turning private project state into a hosted dependency.
+
+## Evidence policy
+
+| Boundary | What I keep separate |
 | --- | --- |
-| Command Center | scheduler, protocol state, blockers, and readiness |
-| Orders / Strategies / Routers | intent, strategy provenance, and execution-policy research |
-| Data Acquisition | capture coverage and replay evidence |
-| Safety | live-readiness prerequisites and the write gate |
-| MARF Bot | safe, broker-write-free questions about runtime state, risk, and selected symbols |
+| Finance | backtest archive ≠ forward paper run ≠ live performance |
+| Execution | replay diagnostics ≠ broker fills; acknowledgement ≠ acceptance |
+| Science | reconstructed field ≠ theorem; simulation ≠ measurement |
+| Automation | a ready-looking interface ≠ verified downstream behavior |
 
-<p align="center"><sub>Captured locally on macOS. This Safety view exposes the Paper/Live boundary and evidence gates without showing account balances, holdings, credentials, or broker-write controls.</sub></p>
-
-## Agent Workflow
-
-### [Codeshark](https://github.com/codeshark94/codeshark) — give the outcome; keep the work on your Mac
-
-Codeshark is the durable local operating layer around Codex: project routing, persistent context, task execution, verification, and result delivery. A request can start in Telegram in plain English while the project and sensitive work stay local.
-
-<p align="center">
-  <img src="assets/codeshark-desktop.png" alt="Codeshark menu bar icon on the local Mac desktop" width="100%">
-</p>
-
-<p align="center">
-  <img src="assets/codeshark-menu.png" alt="Codeshark working menu with task, delivery, project, attention, settings, usage, and log controls" width="43%">
-  <img src="assets/codeshark-model-usage.png" alt="Codeshark Model Usage window showing account quota and model usage" width="48%">
-</p>
-
-<p align="center">
-  <img src="assets/codeshark-role-models.png" alt="Codeshark Role Models window for configuring routing, execution, review, and finalization models" width="72%">
-</p>
-
-Captured locally on macOS: the menu bar is the local control surface. It exposes active and queued tasks, delivery, projects, attention, settings, usage, and logs; the role view makes routing, triage, planning, execution, independent review, adversarial review, and finalization explicit. A task can be issued in English through Telegram, for example: “Review the failing validation tests in SpectraGrid, apply the smallest safe fix, run the suite, and return the evidence.” The useful unit is a finished task with an explicit project, a minimal change, verification evidence, and a clear result.
-
-## Scientific Computing
-
-### [FETM-NanoWall](https://github.com/codeshark94/FETM-NanoWall) — image-derived geometry to first-event transport
-
-FETM-NanoWall reconstructs metric graphene-nanowall geometry from SEM imagery, voxelizes the domain, and computes geometry-driven transport and wall-flux fields for scientific inspection.
-
-<p align="center">
-  <img src="assets/fetm-reconstructed-volume.png" alt="Reconstructed graphene nanowall volume from the GNW transport manuscript" width="48%">
-  <img src="assets/fetm-physical-height-field.png" alt="Physical height field from the GNW transport manuscript" width="48%">
-</p>
-
-<p align="center"><sub>Images extracted from the locally supplied GNW transport manuscript: reconstructed nanowall volume and physical height field.</sub></p>
-
----
-
-<p align="center">
-  I build systems where autonomy is paired with evidence, reproducibility, and operational discipline.
-</p>
+<p align="center"><sub>Selected visuals are fresh local captures or current project outputs. Every screenshot is evidence of a surface or run state, not a promise beyond what it shows.</sub></p>
